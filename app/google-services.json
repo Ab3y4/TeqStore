@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "392110356780",
+    "firebase_url": "https://teqstore-d52cd.firebaseio.com",
+    "project_id": "teqstore-d52cd",
+    "storage_bucket": "teqstore-d52cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392110356780:android:b5800b64d28c486f681489",
+        "android_client_info": {
+          "package_name": "com.example.teqstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392110356780-mj758gk3rrgikcdqmjm44jfp8r9v2mpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teqstore",
+            "certificate_hash": "88a37d271ba2fa3a033ff8fc95d651c06f444b5a"
+          }
+        },
+        {
+          "client_id": "392110356780-ukn1239kog1gg51d075npeirk9ol7dh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHove7PqPBZCiecy6evHCqSYSmOo9VlBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392110356780-ukn1239kog1gg51d075npeirk9ol7dh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

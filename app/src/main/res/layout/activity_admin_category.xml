@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF7676"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/title_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:background="#8BC34A"
+        android:paddingTop="5sp"
+        android:paddingBottom="3sp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/monitor"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/monitor" />
+
+        <ImageView
+            android:id="@+id/desktop"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/desktop" />
+
+        <ImageView
+            android:id="@+id/motherboard"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/motherboard" />
+
+        <ImageView
+            android:id="@+id/harddrive"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/harddrive" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/processor"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/processor" />
+
+        <ImageView
+            android:id="@+id/ram"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ram" />
+
+        <ImageView
+            android:id="@+id/vga"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vga" />
+
+        <ImageView
+            android:id="@+id/headphones"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/headphones" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/laptops"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/laptop" />
+
+        <ImageView
+            android:id="@+id/cameras"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/phones"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/phones" />
+
+        <ImageView
+            android:id="@+id/smartwatch"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/smartwatch" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/checkOrdersBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LogoutBtn"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="#8BC34A"
+        android:text="Check New Orders"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/LogoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="#8BC34A"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

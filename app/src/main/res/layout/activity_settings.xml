@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9DF98"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context=".SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/appBarSettings"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#022c43"
+        android:backgroundTint="#8BC34A">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/closeSettingsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Close"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/updateAccountSettingsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="12sp"
+                android:text="Update"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settingsProfile_img"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:layout_below="@+id/appBarSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/profile_img" />
+
+    <TextView
+        android:id="@+id/profileImageChangeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsProfile_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4sp"
+        android:layout_marginRight="12sp"
+        android:text="Change Profile"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/settingsPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileImageChangeBtn"
+        android:layout_margin="20sp"
+        android:hint="Phone Number"
+        android:padding="10sp"
+
+        />
+
+    <EditText
+        android:id="@+id/settingsFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsPhoneNumber"
+        android:layout_margin="15sp"
+        android:hint="Full Name"
+        android:padding="10sp"
+
+        />
+
+    <EditText
+        android:id="@+id/settingsAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsFullName"
+        android:layout_margin="15sp"
+        android:hint="Address"
+        android:padding="10sp" />
+
+</RelativeLayout>
